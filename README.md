@@ -23,3 +23,6 @@ And then configure config/taobao.yml
 Here is an example shows you how to get some information of a commodity from taobao.com by using the TaobaoFu::Base.get method.
 
     TaobaoFu::Base.get(:method => 'taobao.item.get',  :nick => 'simul官方旗舰店',  :iid  => '3b54462a34e2ed84c330dc3e5fb4a94f',  :fields => 'title, price')
+    
+## Tks
+Most code from https://github.com/why404/taobao_fu
